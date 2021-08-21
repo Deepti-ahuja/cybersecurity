@@ -1,0 +1,184 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+	margin: 0%;
+    padding: 0%;
+}
+#to-go-upwards a:hover
+{
+    background-color: white;
+    color: black;
+}
+#backgroundimg
+{
+    width: 100%;
+    height: 40vw;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/a658232291911d271547b2bca45cf760-1200-80.jpg');
+    opacity:0.6 ;
+    background-repeat: repeat;
+    background-size: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 50% 84%, 0 62%);
+}
+#mainlogo
+{
+    width: 28%;
+    min-height: 100%;
+    text-align: center;
+}
+#mainlogocontainer
+{
+    width: 75%;
+    height: 6vw ;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 12%
+}
+#mainlogocontainer span 
+{
+    position: absolute;
+    margin-top: -8%;
+}
+nav
+{
+    position: absolute;
+    top:6vw;
+    margin-left: 33.6%;
+    padding-bottom: 0%;
+    width: 53.70%;
+    height: 3vw;  
+}
+nav ul
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px 3%;
+    float: right;
+    text-align: center;
+    height: 3vw;
+}
+nav ul li
+{
+    background-color: transparent;
+    position:relative;
+    list-style-type: none;
+    display: inline-block;
+    height: 3vw;
+    padding: 0% 0%;
+    width: 20%;
+    margin: 1% 2.5%;
+    border-bottom: 3px solid white;
+}
+nav ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 180%;
+    font-size: 2vw;
+}
+nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+nav ul ul 
+{
+    display: none;
+}
+nav ul li:hover ul
+{
+    display: block;
+}
+nav ul ul li 
+{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0px;
+}
+#Welcome
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+    padding: 3vw 2vw;
+}
+#abcd
+{
+    height: 25vw;
+}
+#whatsup
+{
+	
+	width: 28%; 
+	float: left;
+	margin: 50px 20px 0px 20px;
+	transition-property: background-color ;
+ 	transition-duration: 2s;
+ }  
+ #whatsup h1
+ {
+    font-size: 2.7vw;
+ }
+ #whatsup h3
+ {
+     font-size: 1.3vw;
+ }
+ #whatsup:hover
+ {
+ background-color: red;
+ color: white;
+ }
+ 
+ #whatsup img
+ {
+ 	width: 80px;
+ 	transition-property: width ;
+ 	transition-duration: 2s;
+ }
+ #whatsup:hover img
+ {
+ 	width: 100px;
+ }
+ #parah2
+	{
+		width: 50%;
+		padding-left: 8%;
+		padding-top: 5%;
+		float: left;
+		background-image: url("https://www.peacepublicschool.com/frontend/usertemplate/assets/uploads/welcome_image/p6.png");
+	}
+ #ppsimage
+	{
+		background-image: url("https://www.peacepublicschool.com/frontend/usertemplate/assets/uploads/welcome_image/p6.png");	
+	}
+ .about-container {
+   width: 100vw;
+   padding: 3vw 0vw;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   box-sizing: border-box;
+ }
+ .about-container h2 {
+   color: #1387e1;
+   font-size: 46px;
+ }
+.about-container p
+{  
+   color: #9fa3a6;
+   font-size: 1.3vw;
+   line-height: 27px;
+   margin: 3% 4%;
+}
+.about-container img
+{
+    width: 30%;
+    position: absolute;
+    top: 200vh;
+    left: 65%;
+}
